@@ -20,41 +20,31 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         A visionary MERN stack developer proficient in{" "}
-        <span className="font-medium">
+        <span className="font-bold">
           React, Node.js, MongoDB, PSQL, Nest, Next and Express
         </span>
         , I blend technical excellence with creativity to craft captivating web
         projects. My agile mindset and innovative flair turn ideas into
-        awe-inspiring user experiences. After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I followed my passion
+        awe-inspiring user experiences. I followed my passion
         for programming by enrolling in a coding bootcamp, where I mastered{" "}
-        <span className="font-medium">full-stack web development</span>. My
-        favorite part of programming is solving complex problems, and I{" "}
+        <span className="font-bold">full-stack web development</span>. My
+        favorite part of programming is solving problems and thinking new solutions, and I{" "}
         <span className="underline">love</span> the thrill of arriving at a
         solution.
       </p>
 
       <p className="mb-3">
         My core stack includes{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, PSQL and MongoDB
+        <span className="font-bold">
+          React, Next.js, Node.js, Nest.Js, PSQL and MongoDB
         </span>
         , with additional familiarity in{" "}
-        <span className="font-medium">TypeScript</span> and{" "}
-        <span className="font-medium">Prisma</span>. I am always eager to learn
-        new technologies and currently seeking a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-bold">TypeScript</span> and{" "}
+        <span className="font-bold">Prisma, Testing Libraries, and Other Professional Tools</span>. I am always eager to learn
+        new technologies. Now I'm currently working as a Full Stack Developer at{" "}
+        <span className="font-bold">Towner Solution</span> in Bangalore.
       </p>
 
-      {/* <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and spending time with my dog. I also love{" "}
-        <span className="font-medium">learning new things</span> and am
-        currently delving into <span className="font-medium">history</span>,{" "}
-        <span className="font-medium">philosophy</span>, and learning to play
-        the guitar.
-      </p> */}
     </motion.section>
   );
 }

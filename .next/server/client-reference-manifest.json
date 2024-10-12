@@ -64,14 +64,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/intro.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/intro.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/projects.tsx": {
       "*": {
         "id": "(sc_client)/./components/projects.tsx",
@@ -91,6 +83,14 @@
     "(app-client)/./components/skills.tsx": {
       "*": {
         "id": "(sc_client)/./components/skills.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/intro.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/intro.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -243,14 +243,6 @@
       ],
       "async": false
     },
-    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/projects.tsx": {
       "id": "(app-client)/./components/projects.tsx",
       "name": "*",
@@ -269,6 +261,14 @@
     },
     "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/skills.tsx": {
       "id": "(app-client)/./components/skills.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
