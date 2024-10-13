@@ -13,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -40,8 +41,8 @@ export default function Project({
         />
 
         <div className="relative flex flex-col pt-4 pb-7 px-5 flex-grow">
-          <a href="#" className="absolute right-3 bottom-3 bg-white/10 w-8 h-8 ">
-            <RiLinkUnlinkM className=" text-gray-700 hover:text-black dark:text-white/70 dark:hover:text-white cursor-pointer hover:scale-125 transition" />
+          <a href={url} target="_blank" rel="noopener noreferrer" className="">
+            <RiLinkUnlinkM className="absolute right-3 bottom-3 text-gray-700 hover:text-black dark:text-white/70 dark:hover:text-white cursor-pointer hover:scale-150 transition" />
           </a>
 
           <h3 className="text-xl font-semibold">{title}</h3>

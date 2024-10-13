@@ -74,6 +74,7 @@ export const projectsData = [
       "A web app that allows users to order food online, Food delivery web app with user, restaurant and kitchen sections. It has login, payment and reservation systems.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
     imageUrl: wordanalyticsImg,
+    url: "https://food-delivery-web-app.vercel.app/",
   },
   {
     title: "AI - RECIPE GENERATOR.",
@@ -81,6 +82,7 @@ export const projectsData = [
       "A web app that generates random AI recipes based on user input. It uses OpenAI API to fetch recipes and stores them in a database.",
     tags: ["React", "OpenAI-API", "MongoDB", "Tailwind", "Node.js", "Redux", "Typescript"],
     imageUrl: corpcommentImg,
+    url: "https://coconut-client.vercel.app/login",
   },
   {
     title: "Indore Plants e-commerce Website",
@@ -88,6 +90,7 @@ export const projectsData = [
       "A website for selling your plants online. With payment gateway, Analytics and Admin panel.",
     tags: ["Node.js", "Express", "EJS", "Bootstrap", "MongoDB", "Razore Pay"],
     imageUrl: rmtdevImg,
+    url: "https://olea-indoor-plants-shop.onrender.com/",
   },
   {
     title:"DALL-E-Image-Generator-Node-Application",
@@ -95,6 +98,7 @@ export const projectsData = [
     "A web app that generates images based on user input. It uses OpenAI API to fetch images and stores them in a database.",
     tags: ["OpenAI-API", "MongoDB", "Node.js", "Typescript", "Repository Pattern"],
     imageUrl: dallImg,
+    url: "https://dalle-image-generator.vercel.app/",
   },
   {
     title: "Password Manager",
@@ -102,6 +106,7 @@ export const projectsData = [
       "A Minimal web app that allows users to create strong passwords. Manage all the passwords in secure way.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Context API", "Typescript"],
     imageUrl: passwordImg,
+    url: "https://password-generator-gold-rho.vercel.app/",
   },
   {
     title: "Signal Chat App Clone",
@@ -109,6 +114,7 @@ export const projectsData = [
       "Developed a clone of Signal Chat App. Users can chat with each other. It has a login system.",
     tags: ["React", "Node.js", "Socket.io","MongoDB", "Tailwind", "Typescript"],
     imageUrl: signalImg,
+    url: "https://github.com/JunaidAhammedU/Signal",
   },
   {
     title: "Admin Management System",
@@ -116,6 +122,7 @@ export const projectsData = [
       "Developed an admin management system. With RBAC, Analytics, and other features. It has a login system.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
     imageUrl: adminImg,
+    url: "https://olea-indoor-plants-shop.onrender.com/admin",
   },
   {
     title: "Netflix Clone",
@@ -123,6 +130,7 @@ export const projectsData = [
       "Developed a clone of Netflix. Users can watch movies and series. It has a login system.",
     tags: ["React", "TMDB-API", "MongoDB" ,"Tailwind", "Typescript"],
     imageUrl: netflixImg,
+    url: "https://netflix-clone-psi.vercel.app/",
   }
   
 ] as const;

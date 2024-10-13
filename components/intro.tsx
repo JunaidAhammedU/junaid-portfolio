@@ -10,6 +10,9 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import profile from "@/public/profile.jpeg";
+import { Fira_Code } from "next/font/google";
+const firaCode = Fira_Code({ subsets: ["latin"], weight: ["400", "700"] });
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -38,12 +41,12 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-0 text-6xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -63,7 +66,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Junaid.</span><br />
+        <span className={`font-bold ${firaCode.className}`}>
+          Hello, I'm Junaid.
+        </span>
+        <br />
       </motion.h1>
 
       <motion.div
