@@ -57,10 +57,10 @@ export const experiencesData = [
     date: "Nov 2023 - Jan 2024",
   },
   {
-    title: "Graduated Brototype bootcamp",
+    title: "Graduated Bootcamp",
     location: "Calicut Kerala, India",
     description:
-      "I graduated from the Brototype. I was a part of the member to up skill to the full stack. I learned about the complete technologies which are using in web development.",
+      "I did an internship at Calicut. I was a part of the member to up skill to the full stack. I learned about the complete technologies which are using in web development.",
     icon: React.createElement(FaReact),
     date: "Feb 2023 - Oct 2023",
   },
