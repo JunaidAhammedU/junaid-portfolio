@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        A visionary MERN stack developer proficient in{" "}
+        A visionary Full Stack Developer proficient in{" "}
         <span className="font-bold">
           React, Node.js, MongoDB, PSQL, Nest, Next and Express
         </span>

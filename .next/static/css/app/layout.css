@@ -596,6 +596,30 @@ video {
 .top-\[0\.15rem\] {
   top: 0.15rem;
 }
+.right-3 {
+  right: 0.75rem;
+}
+.top-3 {
+  top: 0.75rem;
+}
+.top-5 {
+  top: 1.25rem;
+}
+.right-6 {
+  right: 1.5rem;
+}
+.right-1 {
+  right: 0.25rem;
+}
+.top-1 {
+  top: 0.25rem;
+}
+.bottom-1 {
+  bottom: 0.25rem;
+}
+.bottom-3 {
+  bottom: 0.75rem;
+}
 .-z-10 {
   z-index: -10;
 }
@@ -697,6 +721,21 @@ video {
 .h-\[60\%\] {
   height: 60%;
 }
+.h-\[30\%\] {
+  height: 30%;
+}
+.h-\[35\%\] {
+  height: 35%;
+}
+.h-\[32\%\] {
+  height: 32%;
+}
+.h-\[31\%\] {
+  height: 31%;
+}
+.h-6 {
+  height: 1.5rem;
+}
 .w-1 {
   width: 0.25rem;
 }
@@ -729,6 +768,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-6 {
+  width: 1.5rem;
 }
 .max-w-\[45rem\] {
   max-width: 45rem;
@@ -872,6 +914,9 @@ video {
 .p-4 {
   padding: 1rem;
 }
+.p-2 {
+  padding: 0.5rem;
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -899,10 +944,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
 }
 .pb-7 {
   padding-bottom: 1.75rem;
@@ -941,6 +982,10 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -948,10 +993,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 .\!font-normal {
   font-weight: 400 !important;
@@ -968,17 +1009,11 @@ video {
 .font-semibold {
   font-weight: 600;
 }
-.font-thin {
-  font-weight: 100;
-}
 .uppercase {
   text-transform: uppercase;
 }
 .capitalize {
   text-transform: capitalize;
-}
-.italic {
-  font-style: italic;
 }
 .\!leading-\[1\.5\] {
   line-height: 1.5 !important;
@@ -1132,9 +1167,25 @@ html.dark {
 }
 
 
+.hover\:bg-white\/80:hover {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+
 .hover\:text-gray-950:hover {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 
@@ -1326,6 +1377,12 @@ html.dark {
 :is(.dark .dark\:hover\:text-gray-300:hover) {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+
+:is(.dark .dark\:hover\:text-white:hover) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 

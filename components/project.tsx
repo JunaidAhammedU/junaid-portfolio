@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { RiLinkUnlinkM } from "react-icons/ri";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -29,15 +30,20 @@ export default function Project({
       viewport={{ once: true }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 border border-black/5 rounded-lg overflow-hidden shadow-lg transition hover:bg-gray-200 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 h-[33rem] w-[18rem] flex flex-col">
+      <section className=" bg-gray-100 border border-black/5 rounded-lg overflow-hidden shadow-lg transition hover:bg-gray-200 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 h-[33rem] w-[18rem] flex flex-col">
         {/* Image section */}
         <Image
           src={imageUrl}
           alt="Project Image"
           quality={95}
-          className="w-full h-[60%] object-cover transition group-hover:scale-105"
+          className="w-full h-[30%] object-cover transition group-hover:scale-105 cursor-pointer hover:opacity-80"
         />
-        <div className="flex flex-col pt-4 pb-7 px-5 flex-grow">
+
+        <div className="relative flex flex-col pt-4 pb-7 px-5 flex-grow">
+          <a href="#">
+            <RiLinkUnlinkM className="absolute right-3 bottom-3 text-gray-700 hover:text-black dark:text-white/70 dark:hover:text-white cursor-pointer hover:bg-white/80 " />
+          </a>
+
           <h3 className="text-xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 flex-grow">
             {description}

@@ -2,8 +2,14 @@ import React from "react";
 import corpcommentImg from "@/public/coconut.jpg";
 import rmtdevImg from "@/public/Indoore-plants.jpg";
 import wordanalyticsImg from "@/public/food-delivary.jpg";
+import passwordImg from "@/public/password-project.png";
+import dallImg from "@/public/Dall-E-small-a7397dd.webp";
+import adminImg from "@/public/admin-management.webp";
+import signalImg from "@/public/signal-clone.png";
+import netflixImg from "@/public/netflix.webp";
 import { FaReact, FaNodeJs, FaDocker, FaHtml5, FaCss3Alt, FaGit } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiNestjs, SiMongodb, SiPostgresql, SiWebrtc, SiJavascript, SiJest, SiRedux, SiTailwindcss, SiPrisma, SiBootstrap, SiExpress, SiFramer } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiNestjs, SiMongodb, SiPostgresql, SiWebrtc, SiJavascript, SiJest, SiRedux, SiTailwindcss, SiPrisma, SiBootstrap, SiExpress, SiFramer, SiSocketdotio, SiFirebase } from "react-icons/si";
+import { title } from "process";
 
 
 export const links = [
@@ -70,7 +76,7 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
   {
-    title: "AI - COCONUT RECIPE.",
+    title: "AI - RECIPE GENERATOR.",
     description:
       "A web app that generates random AI recipes based on user input. It uses OpenAI API to fetch recipes and stores them in a database.",
     tags: ["React", "OpenAI-API", "MongoDB", "Tailwind", "Node.js", "Redux", "Typescript"],
@@ -79,10 +85,45 @@ export const projectsData = [
   {
     title: "Indore Plants e-commerce Website",
     description:
-      "A website for selling your plants online. It has a login system and a payment system.",
+      "A website for selling your plants online. With payment gateway, Analytics and Admin panel.",
     tags: ["Node.js", "Express", "EJS", "Bootstrap", "MongoDB", "Razore Pay"],
     imageUrl: rmtdevImg,
   },
+  {
+    title:"DALL-E-Image-Generator-Node-Application",
+    description:
+    "A web app that generates images based on user input. It uses OpenAI API to fetch images and stores them in a database.",
+    tags: ["OpenAI-API", "MongoDB", "Node.js", "Typescript", "Repository Pattern"],
+    imageUrl: dallImg,
+  },
+  {
+    title: "Password Manager",
+    description:
+      "A Minimal web app that allows users to create strong passwords. Manage all the passwords in secure way.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Context API", "Typescript"],
+    imageUrl: passwordImg,
+  },
+  {
+    title: "Signal Chat App Clone",
+    description:
+      "Developed a clone of Signal Chat App. Users can chat with each other. It has a login system.",
+    tags: ["React", "Node.js", "Socket.io","MongoDB", "Tailwind", "Typescript"],
+    imageUrl: signalImg,
+  },
+  {
+    title: "Admin Management System",
+    description:
+      "Developed an admin management system. With RBAC, Analytics, and other features. It has a login system.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
+    imageUrl: adminImg,
+  },
+  {
+    title: "Netflix Clone",
+    description:
+      "Developed a clone of Netflix. Users can watch movies and series. It has a login system.",
+    tags: ["React", "TMDB-API", "MongoDB" ,"Tailwind", "Typescript"],
+    imageUrl: netflixImg,
+  }
   
 ] as const;
 
@@ -97,6 +138,8 @@ export const skillsData = [
   { name: "Microservices", icon: null }, 
   { name: "WebRTC", icon: React.createElement(SiWebrtc) },
   { name: "Docker", icon: React.createElement(FaDocker) },
+  {name: "Socket.io", icon: React.createElement(SiSocketdotio) },
+  {name:"Firebase", icon: React.createElement(SiFirebase) },
   { name: "HTML", icon: React.createElement(FaHtml5) },
   { name: "CSS", icon: React.createElement(FaCss3Alt) },
   { name: "JavaScript", icon: React.createElement(SiJavascript) },
