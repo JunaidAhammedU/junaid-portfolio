@@ -69,7 +69,7 @@ export default function Intro() {
           Hello, I'm Junaid.
         </span>
         <br />
-        <p className="text-sm">Software Engineer</p>
+        <p className="text-sm opacity-60">Software Engineer</p>
       </motion.h1>
 
       <motion.div
