@@ -43,9 +43,7 @@ export default function Skills() {
             }}
             custom={index}
           >
-            {skill.icon && (
-              <span className="mr-2 text-2xl">{skill.icon}</span>
-            )}
+            {skill.icon && <span className="mr-2 text-2xl">{skill.icon}</span>}
             <span>{skill.name}</span>
           </motion.li>
         ))}
