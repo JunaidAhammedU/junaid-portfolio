@@ -112,9 +112,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/intro.tsx": {
+    "(app-client)/./components/projects.tsx": {
       "*": {
-        "id": "(sc_client)/./components/intro.tsx",
+        "id": "(sc_client)/./components/projects.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -136,9 +136,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/projects.tsx": {
+    "(app-client)/./components/intro.tsx": {
       "*": {
-        "id": "(sc_client)/./components/projects.tsx",
+        "id": "(sc_client)/./components/intro.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -307,8 +307,8 @@
       ],
       "async": false
     },
-    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
+    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/projects.tsx": {
+      "id": "(app-client)/./components/projects.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -331,8 +331,8 @@
       ],
       "async": false
     },
-    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/projects.tsx": {
-      "id": "(app-client)/./components/projects.tsx",
+    "/home/junaid/Projects/Personal-Projects/junaid-portfolio/components/intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

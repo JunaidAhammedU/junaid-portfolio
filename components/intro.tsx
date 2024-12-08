@@ -13,7 +13,6 @@ import profile from "@/public/profile.jpeg";
 import { Fira_Code } from "next/font/google";
 const firaCode = Fira_Code({ subsets: ["latin"], weight: ["400", "700"] });
 
-
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -70,6 +69,7 @@ export default function Intro() {
           Hello, I'm Junaid.
         </span>
         <br />
+        <p className="text-sm">Software Engineer</p>
       </motion.h1>
 
       <motion.div
