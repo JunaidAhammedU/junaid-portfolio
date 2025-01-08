@@ -1,6 +1,7 @@
 import React from "react";
 import corpcommentImg from "@/public/coconut.jpg";
 import rmtdevImg from "@/public/Indoore-plants.jpg";
+import AIRoom from "@/public/AIRoom.png";
 import wordanalyticsImg from "@/public/food-delivary.jpg";
 import passwordImg from "@/public/password-project.png";
 import dallImg from "@/public/Dall-E-small-a7397dd.webp";
@@ -39,6 +40,7 @@ import {
   SiRedis,
 } from "react-icons/si";
 import { title } from "process";
+import { url } from "inspector";
 
 export const links = [
   {
@@ -98,15 +100,31 @@ export const projectsData = [
   {
     title: "Food Delivery Web App",
     description:
-      "A web app that allows users to order food online, Food delivery web app with user, restaurant and kitchen sections. It has login, payment and reservation systems.",
+      "Order food online with ease. Our app features user, restaurant, and kitchen sections, complete with login, payment, and reservation systems.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
     imageUrl: wordanalyticsImg,
     url: "https://food-delivery-web-app.vercel.app/",
   },
   {
-    title: "AI - RECIPE GENERATOR.",
+    title: "AI Room Redesigner",
     description:
-      "A web app that generates random AI recipes based on user input. It uses OpenAI API to fetch recipes and stores them in a database.",
+      "Redesign your room effortlessly. Customize furniture, wall colors, and more to visualize your dream space.",
+    tags: ["Next.js", "MongoDB", "Tailwind", "Typescript", "Replicate"],
+    imageUrl: AIRoom,
+    url: "https://artifex-ai-designs.netlify.app/",
+  },
+  {
+    title: "Indoor Plants E-commerce Website",
+    description:
+      "Buy plants online with our e-commerce platform. Features payment gateway, analytics, and an admin panel.",
+    tags: ["Node.js", "Express", "EJS", "Bootstrap", "MongoDB", "Razorpay"],
+    imageUrl: rmtdevImg,
+    url: "https://olea-indoor-plants-shop.onrender.com",
+  },
+  {
+    title: "AI Recipe Generator",
+    description:
+      "Discover new recipes with our AI-powered generator. Simply input your preferences, and get unique recipes instantly. Powered by OpenAI API.",
     tags: [
       "React",
       "OpenAI-API",
@@ -120,17 +138,9 @@ export const projectsData = [
     url: "https://coconut-client.vercel.app/login",
   },
   {
-    title: "Indore Plants e-commerce Website",
+    title: "DALL-E Image Generator",
     description:
-      "A website for selling your plants online. With payment gateway, Analytics and Admin panel.",
-    tags: ["Node.js", "Express", "EJS", "Bootstrap", "MongoDB", "Razore Pay"],
-    imageUrl: rmtdevImg,
-    url: "https://olea-indoor-plants-shop.onrender.com",
-  },
-  {
-    title: "DALL-E-Image-Generator-Node-Application",
-    description:
-      "A web app that generates images based on user input. It uses OpenAI API to fetch images and stores them in a database.",
+      "Generate stunning images based on your input using OpenAI's DALL-E. Store and manage your creations easily.",
     tags: [
       "OpenAI-API",
       "MongoDB",
@@ -142,9 +152,9 @@ export const projectsData = [
     url: "https://dalle-image-generator.vercel.app/",
   },
   {
-    title: "Password Manager",
+    title: "Passvault Password Generator",
     description:
-      "A Minimal web app that allows users to create strong passwords. Manage all the passwords in secure way.",
+      "Create and store strong, custom passwords securely. Includes options for special characters, numbers, and custom lengths.",
     tags: [
       "React",
       "Node.js",
@@ -159,7 +169,7 @@ export const projectsData = [
   {
     title: "Signal Chat App Clone",
     description:
-      "Developed a clone of Signal Chat App. Users can chat with each other. It has a login system.",
+      "Chat with friends using our Signal app clone. Features a secure login system and real-time messaging.",
     tags: [
       "React",
       "Node.js",
@@ -174,7 +184,7 @@ export const projectsData = [
   {
     title: "Admin Management System",
     description:
-      "Developed an admin management system. With RBAC, Analytics, and other features. It has a login system.",
+      "Manage your admin tasks efficiently with our system. Includes RBAC, analytics, and a secure login system.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Redux", "Typescript"],
     imageUrl: adminImg,
     url: "https://olea-indoor-plants-shop.onrender.com/admin",
@@ -182,7 +192,7 @@ export const projectsData = [
   {
     title: "Netflix Clone",
     description:
-      "Developed a clone of Netflix. Users can watch movies and series. It has a login system.",
+      "Enjoy movies and series with our Netflix clone. Features a user-friendly interface and secure login system.",
     tags: ["React", "TMDB-API", "MongoDB", "Tailwind", "Typescript"],
     imageUrl: netflixImg,
     url: "https://netflix-clone-psi.vercel.app/",
